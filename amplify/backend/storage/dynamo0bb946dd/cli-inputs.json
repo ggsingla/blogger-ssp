@@ -1,0 +1,14 @@
+{
+  "resourceName": "dynamo0bb946dd",
+  "tableName": "Blogs",
+  "partitionKey": {
+    "fieldName": "blogId",
+    "fieldType": "number"
+  },
+  "sortKey": {
+    "fieldName": "userId",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
