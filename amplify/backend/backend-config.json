@@ -80,7 +80,7 @@
         }
       ]
     },
-    "api1d3e4abc": {
+    "getBlogs": {
       "service": "API Gateway",
       "providerPlugin": "awscloudformation",
       "dependsOn": [

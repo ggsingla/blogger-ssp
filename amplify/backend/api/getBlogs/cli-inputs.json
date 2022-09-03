@@ -1,8 +1,8 @@
 {
   "version": 1,
   "paths": {
-    "/blog/{blogId}": {
-      "name": "/blog/{blogId}",
+    "/blogs": {
+      "name": "/blogs",
       "lambdaFunction": "bloggerssp18c6849b",
       "permissions": {
         "setting": "open"

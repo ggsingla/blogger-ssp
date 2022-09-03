@@ -31,7 +31,7 @@
         },
         "bloggerssp18c6849b": {
           "deploymentBucketName": "amplify-bloggerssp-dev-202431-deployment",
-          "s3Key": "amplify-builds/bloggerssp18c6849b-3341644c4441584a6c30-build.zip"
+          "s3Key": "amplify-builds/bloggerssp18c6849b-2b6c332b787573663259-build.zip"
         }
       }
     }

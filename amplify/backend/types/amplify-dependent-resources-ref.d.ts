@@ -44,7 +44,7 @@ export type AmplifyDependentResourcesAttributes = {
             "ApiName": "string",
             "ApiId": "string"
         },
-        "api1d3e4abc": {
+        "getBlogs": {
             "RootUrl": "string",
             "ApiName": "string",
             "ApiId": "string"
