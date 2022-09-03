@@ -9,11 +9,26 @@
       "UnauthRoleName": "amplify-bloggerssp-dev-202431-unauthRole",
       "StackName": "amplify-bloggerssp-dev-202431",
       "StackId": "arn:aws:cloudformation:ap-south-1:019396727658:stack/amplify-bloggerssp-dev-202431/51582d30-2b98-11ed-88b3-064921faf5c6",
-      "AmplifyAppId": "d3eiy9x8bvjze0"
+      "AmplifyAppId": "d3eiy9x8bvjze0",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-bloggerssp-dev-202431-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
     },
     "categories": {
       "auth": {
         "bloggerssp49c75777": {}
+      },
+      "function": {
+        "testFunction": {
+          "deploymentBucketName": "amplify-bloggerssp-dev-202431-deployment",
+          "s3Key": "amplify-builds/testFunction-6956494e77333543756c-build.zip"
+        },
+        "bloggerssp76454c7e": {
+          "deploymentBucketName": "amplify-bloggerssp-dev-202431-deployment",
+          "s3Key": "amplify-builds/bloggerssp76454c7e-4255596376434842744e-build.zip"
+        },
+        "bloggersspe33806fc": {
+          "deploymentBucketName": "amplify-bloggerssp-dev-202431-deployment",
+          "s3Key": "amplify-builds/bloggersspe33806fc-443872773978426b3451-build.zip"
+        }
       }
     }
   }

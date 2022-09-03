@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/test1": {
+      "name": "/test1",
+      "lambdaFunction": "bloggerssp76454c7e",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}
