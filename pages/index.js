@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { withAuthenticator } from '@aws-amplify/ui-react'
 
 function Home() {
