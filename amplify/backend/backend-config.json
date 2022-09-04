@@ -45,7 +45,13 @@
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     },
-    "bloggerssp18c6849b": {
+    "getBlogs": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "dependsOn": []
+    },
+    "getAllblogs": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda",
@@ -80,13 +86,41 @@
         }
       ]
     },
-    "getBlogs": {
+    "getBlog": {
       "service": "API Gateway",
       "providerPlugin": "awscloudformation",
       "dependsOn": [
         {
           "category": "function",
-          "resourceName": "bloggerssp18c6849b",
+          "resourceName": "getBlogs",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ]
+    },
+    "finalTest": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "getBlogs",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ]
+    },
+    "getAllblogs": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "getAllblogs",
           "attributes": [
             "Name",
             "Arn"

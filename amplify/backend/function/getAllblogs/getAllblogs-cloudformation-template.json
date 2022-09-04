@@ -55,12 +55,12 @@
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "bloggerssp18c6849b",
+            "getAllblogs",
             {
               "Fn::Join": [
                 "",
                 [
-                  "bloggerssp18c6849b",
+                  "getAllblogs",
                   "-",
                   {
                     "Ref": "env"
@@ -97,12 +97,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "bloggersspLambdaRole6fb144c9",
+            "bloggersspLambdaRole6cba754f",
             {
               "Fn::Join": [
                 "",
                 [
-                  "bloggersspLambdaRole6fb144c9",
+                  "bloggersspLambdaRole6cba754f",
                   "-",
                   {
                     "Ref": "env"

@@ -1,6 +1,23 @@
 import BlogCard from '../../components/BlogCard'
 import avatar from '../../media/avatar.jpg'
-const user = () => {
+import {API} from 'aws-amplify'
+import { useEffect } from 'react'
+
+
+
+const User = () => {
+  const handleSubmmit= e =>{
+    // e.preventDefault()
+    API.post('getBlogs', '/blogs', {
+      body: {
+        title: "hello",
+        content: "world"
+      }
+    })
+  }
+  useEffect(() => {
+  handleSubmmit()
+  },[])
   return (
     <>
       <div className='flex items-center justify-center flex-col mb-10 bg-orange-50 py-10'>
@@ -27,4 +44,4 @@ const user = () => {
   )
 }
 
-export default user
+export default User

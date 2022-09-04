@@ -27,11 +27,15 @@
         },
         "bloggersspe33806fc": {
           "deploymentBucketName": "amplify-bloggerssp-dev-202431-deployment",
-          "s3Key": "amplify-builds/bloggersspe33806fc-443872773978426b3451-build.zip"
+          "s3Key": "amplify-builds/bloggersspe33806fc-536c4d6b4e6c324a3553-build.zip"
         },
-        "bloggerssp18c6849b": {
+        "getBlogs": {
           "deploymentBucketName": "amplify-bloggerssp-dev-202431-deployment",
-          "s3Key": "amplify-builds/bloggerssp18c6849b-2b6c332b787573663259-build.zip"
+          "s3Key": "amplify-builds/getBlogs-5043452f716969675549-build.zip"
+        },
+        "getAllblogs": {
+          "deploymentBucketName": "amplify-bloggerssp-dev-202431-deployment",
+          "s3Key": "amplify-builds/getAllblogs-4b5656684e3239445666-build.zip"
         }
       }
     }

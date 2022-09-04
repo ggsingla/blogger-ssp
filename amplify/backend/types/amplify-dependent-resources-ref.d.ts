@@ -31,7 +31,13 @@ export type AmplifyDependentResourcesAttributes = {
             "Region": "string",
             "LambdaExecutionRole": "string"
         },
-        "bloggerssp18c6849b": {
+        "getBlogs": {
+            "Name": "string",
+            "Arn": "string",
+            "Region": "string",
+            "LambdaExecutionRole": "string"
+        },
+        "getAllblogs": {
             "Name": "string",
             "Arn": "string",
             "Region": "string",
@@ -44,7 +50,17 @@ export type AmplifyDependentResourcesAttributes = {
             "ApiName": "string",
             "ApiId": "string"
         },
-        "getBlogs": {
+        "getBlog": {
+            "RootUrl": "string",
+            "ApiName": "string",
+            "ApiId": "string"
+        },
+        "finalTest": {
+            "RootUrl": "string",
+            "ApiName": "string",
+            "ApiId": "string"
+        },
+        "getAllblogs": {
             "RootUrl": "string",
             "ApiName": "string",
             "ApiId": "string"
